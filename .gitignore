@@ -1,0 +1,23 @@
+#Configurations
+database/config.js
+webpack.config.js
+client/src/apikey.js
+s3-bucket-policy.json
+
+#built files
+client/dist/bundle.js
+
+### Node ###
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.vscode
+package-lock.json
+
+### NPM ###
+node_modules
