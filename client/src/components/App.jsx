@@ -105,7 +105,6 @@ class App extends React.Component {
              this.setState({vidData: data.items.slice(1), intialVidId: selectedVid,
             vidinfo: {title: selectedTitle, channelName: selectedChannelName, randomNum: randomNum, viddes: selectedVidDes, publishedAt: selectedDate}});
         });
-
      }
 
     render() {
